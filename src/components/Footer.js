@@ -3,9 +3,10 @@ import {
   FaDribbbleSquare,
   FaFacebookSquare,
   FaGithubSquare,
-  FaInstagram,
-  FaTwitterSquare,
+  FaInstagram
+  
 } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -21,7 +22,7 @@ const Footer = () => {
           <div className="flex justify-between md:w-[75%] my-6">
             <FaFacebookSquare className="cursor-pointer" size={30} />
             <FaInstagram className="cursor-pointer" size={30} />
-            <FaTwitterSquare className="cursor-pointer" size={30} />
+            <FaXTwitter className="cursor-pointer" size={30} />
             <FaGithubSquare className="cursor-pointer" size={30} />
             <FaDribbbleSquare className="cursor-pointer" size={30} />
           </div>
@@ -29,39 +30,39 @@ const Footer = () => {
 
         <div className="lg:col-span-2 flex justify-between mt-6">
           <div>
-            <h6 className="font-medium text-[#9b9b9b]">Location</h6>
+            <h6 className="font-medium text-[#9b9b9b]">LOCATION</h6>
             <ul>
-              <li className="py-2 text-sm">New York</li>
-              <li className="py-2 text-sm">USA</li>
-              <li className="py-2 text-sm">India</li>
-              <li className="py-2 text-sm">Canada</li>
+              <li className="py-2 text-sm">CHENNAI</li>
+              <li className="py-2 text-sm">COCHI</li>
+              <li className="py-2 text-sm">BANGLORE</li>
+              <li className="py-2 text-sm">PUNE</li>
             </ul>
           </div>
           <div>
-            <h6 className="font-medium text-[#9b9b9b]">Location</h6>
+            <h6 className="font-medium text-[#9b9b9b]">SERVICES</h6>
             <ul>
-              <li className="py-2 text-sm">New York</li>
-              <li className="py-2 text-sm">USA</li>
-              <li className="py-2 text-sm">India</li>
-              <li className="py-2 text-sm">Canada</li>
+              <li className="py-2 text-sm">FAST DELIEVERY</li>
+              <li className="py-2 text-sm">FAST RESPONSE</li>
+              <li className="py-2 text-sm">24*7 SUPPORT</li>
+              <li className="py-2 text-sm">FAST DELIEVRY</li>
             </ul>
           </div>
           <div>
-            <h6 className="font-medium text-[#9b9b9b]">Location</h6>
+            <h6 className="font-medium text-[#9b9b9b]">ABOUT</h6>
             <ul>
-              <li className="py-2 text-sm">New York</li>
-              <li className="py-2 text-sm">USA</li>
-              <li className="py-2 text-sm">India</li>
-              <li className="py-2 text-sm">Canada</li>
+              <li className="py-2 text-sm">HOME</li>
+              <li className="py-2 text-sm">CONTACT</li>
+              <li className="py-2 text-sm">SERVICES</li>
+              <li className="py-2 text-sm">BLOG</li>
             </ul>
           </div>
           <div>
-            <h6 className="font-medium text-[#9b9b9b]">Location</h6>
+            <h6 className="font-medium text-[#9b9b9b]">BRANCHES</h6>
             <ul>
-              <li className="py-2 text-sm">New York</li>
-              <li className="py-2 text-sm">USA</li>
-              <li className="py-2 text-sm">India</li>
-              <li className="py-2 text-sm">Canada</li>
+              <li className="py-2 text-sm">MUMBAI</li>
+              <li className="py-2 text-sm">VIZAG</li>
+              <li className="py-2 text-sm">MADUARI</li>
+              <li className="py-2 text-sm">DELHI</li>
             </ul>
           </div>
         </div>
