@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dinesh2842/Mini-food-store/static/css/main.d7755829.css",
+    "main.js": "/dinesh2842/Mini-food-store/static/js/main.72110f05.js",
+    "index.html": "/dinesh2842/Mini-food-store/index.html",
+    "main.d7755829.css.map": "/dinesh2842/Mini-food-store/static/css/main.d7755829.css.map",
+    "main.72110f05.js.map": "/dinesh2842/Mini-food-store/static/js/main.72110f05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7755829.css",
+    "static/js/main.72110f05.js"
+  ]
+}
